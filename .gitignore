@@ -1,0 +1,20 @@
+__pycache__/
+*.py[cod]
+*.egg-info/
+.ipynb_checkpoints/
+
+# runtime outputs
+working/
+input/
+output/
+runs/
+results/
+
+# hugging face cache if accidentally placed in repo
+.cache/
+hf_cache/
+
+# editor / os
+.DS_Store
+.vscode/
+.idea/
