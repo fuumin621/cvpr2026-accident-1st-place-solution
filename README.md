@@ -2,6 +2,8 @@
 
 1st-place solution for the [Kaggle CVPR 2026 Accident](https://www.kaggle.com/competitions/accident) competition.
 
+📄 Paper: [arXiv:2605.29325](https://arxiv.org/abs/2605.29325) (Accepted at the AUTOPILOT Workshop, CVPR 2026)
+
 A multi-stage pipeline built on `Qwen3-VL`. Two scales of the same model are run
 independently (exp160b: 32B, exp200: 235B), blended 9:1 on time/spatial with
 type taken from exp160b, then refined with a bbox-snap post-processing step.
